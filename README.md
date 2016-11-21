@@ -23,7 +23,7 @@ Optional: add a alias for the compile command by adding the following line to `.
 
 `alias compile='/path/to/file/compile.sh'`
  
- ### Compilation
+### Compilation
  You can now compile any correct Latex file with:
  
  `/path/to/file/compile.sh file.tex` 
@@ -32,7 +32,7 @@ Optional: add a alias for the compile command by adding the following line to `.
  
  `compile file.tex`
  
- ### Test compilation
+### Test compilation
  You can test the compilation of the thesis template in the thesis folder:
  
  `compile thesis.tex`
