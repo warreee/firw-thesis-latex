@@ -1,4 +1,4 @@
 #!/bin/sh
-exec docker run --rm -i -v $PWD:/data thesis pdflatex $*
+exec docker run --rm -i -v $PWD/`dirname $*`:/data thesis pdflatex `basename $*`
 
 
