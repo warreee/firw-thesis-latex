@@ -36,3 +36,7 @@ Optional: add a alias for the compile command by adding the following line to `.
  You can test the compilation of the thesis template in the thesis folder:
  
  `compile thesis.tex`
+
+### Acknowledgments
+
+The [repo](https://github.com/blang/latex-docker) from blang was a very good example, and was an inspiration for this repository.
