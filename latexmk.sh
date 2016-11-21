@@ -1,4 +1,2 @@
 #!/bin/sh
-echo $PWD/`dirname $*`
-exec docker run --rm -i -v $PWD/`dirname $*`:/data thesis latexmk `basename $*`
-
+exec docker run --rm -i -v $PWD/`dirname $1`:/data thesis latexmk `basename $1`
