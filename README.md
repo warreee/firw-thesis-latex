@@ -47,15 +47,15 @@ Here I describe a possible setup, but there are of course other possible ways.
 
 1. Install your favorite highlighting package in Atom for latex.
    (They might complain that you need to setup latex, just ignore that as we use an own builder.)
-2. Install the save-commands package.
+2. Install the [save-commands](https://atom.io/packages/save-commands) package.
 3. Add the following file to the root directory of your latex project:
 ```json
 {
     "commands": [
-        "**/*.tex : /paht/to/compile.sh {relPath}{filename}"
+        "**/*.tex : /path/to/compile.sh {relPath}{filename}"
     ]
 }
 ```
-### Acknowledgments
+## Acknowledgments
 
 The [repo](https://github.com/blang/latex-docker) from blang was a very good example, and was an inspiration for this repository.
