@@ -5,7 +5,7 @@ It uses docker to accomplish this.
 ## Usage
 ### Prerequisites
 You have installed:
- - Docker `sudo apt-get intall docker`
+ - Docker `sudo apt-get install docker docker.io`
 
 ### Install
 Clone the project:
@@ -13,6 +13,9 @@ Clone the project:
 
 Build docker:
 `docker build -t compile .`
+
+Add yourself to the dockergroup:
+`sudo usermod -aG docker $USER`
 
 Make sure that the following files are executable:
  - compile.sh
