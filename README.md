@@ -5,7 +5,7 @@ It uses docker to accomplish this.
 ## Usage
 ### Prerequisites
 You have installed:
- - Docker `sudo apt-get intall docker`
+ - Docker `sudo apt-get install docker`
 
 ### Install
 Clone the project:
