@@ -165,7 +165,7 @@
   \expandafter\@tfor\expandafter\@tempd\expandafter:\expandafter=#1\do{%
     \expandafter\kulemt@handle@mo@\@tempd\@nil{#2}}}
 \def\kulemt@handle@mo@ #1:#2\@nil #3{#3{#1}{#2}}
-\RequirePackage[utf8]{inputenc}
+\RequirePackage[ascii]{inputenc}
 \define@key{kulemt}{inputenc}{\def\kulemt@opt@inputenc{#1}}
 \def\kulemt@opt@inputenc{}
 \kulemt@add@once@opts{inputenc}\kulemt@opt@inputenc{%
